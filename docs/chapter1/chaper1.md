@@ -25,9 +25,8 @@ TmaxSoft will then need access to the Linux server via virtual machine and or VP
 1. Provide IP address of Linux Server (If built by TmaxSoft)
 1. Provide source code destination directory
 
-
-```
 ### Sample JCL:
+<pre>
 //USER001  JOB ,CARTER,MSGLEVEL=(1,1)
 //FTPSTP1  EXEC PGM=FTP,REGION=2048K,
 //             PARM='12.23.45.678 (EXIT TIMEOUT 120'
@@ -43,7 +42,7 @@ lcd 'mainframe pds name'
 mput
 /*
 //*
-```
+</pre>
 
 ## Option 2: SCP From On Premise Server to Offsite Linux Server
 
